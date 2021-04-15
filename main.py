@@ -1,6 +1,7 @@
+#inicio 
 from nltk.chat.util import Chat, reflections
 mis_reflexions = {
-    "ir":"fui",
+    "ir":"fuimi ",
     "hola":"hey"
 }
 
@@ -9,7 +10,7 @@ pares = [
         r"mi nombre es (.*)",
         ["Hola %1, como estas ?",]
     ],
-     [
+    [
         r"cual es tu nombre ?",
         ["Mi nombre es Chatbot ?",]
     ],
